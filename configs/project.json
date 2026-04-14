@@ -1,0 +1,48 @@
+{
+  "slug": "pricing-elasticity-lab",
+  "title": "Pricing Elasticity Lab",
+  "project_type": "analytics",
+  "domain": "Commerce",
+  "summary": "Estimate elasticity, simulate price shifts, and quantify likely revenue tradeoffs by segment.",
+  "tags": [
+    "pricing",
+    "causal",
+    "revenue"
+  ],
+  "accent": "#577590",
+  "dashboard_metrics": [
+    {
+      "label": "North Star",
+      "value": "82",
+      "delta": "+7.1%"
+    },
+    {
+      "label": "Variance",
+      "value": "9%",
+      "delta": "-1.8%"
+    },
+    {
+      "label": "Decision Cycle",
+      "value": "4d",
+      "delta": "-0.5d"
+    }
+  ],
+  "sample_features": {
+    "current_conversion": 0.14,
+    "baseline_conversion": 0.12,
+    "volume": 1250,
+    "segment": "paid_users"
+  },
+  "sample_metrics": {
+    "acquisition": 22.0,
+    "activation": 27.0,
+    "retention": 42.0,
+    "revenue": 61.0
+  },
+  "knowledge_base": [
+    "Pricing Elasticity Lab is positioned as a Commerce starter that emphasizes fast iteration, clear documentation, and production-friendly interfaces.",
+    "The primary value proposition is: Estimate elasticity, simulate price shifts, and quantify likely revenue tradeoffs by segment.",
+    "Recommended operating model: ship a small API, add observability, validate outputs with stakeholder review, and monitor the top business KPI every week.",
+    "Typical stakeholders include analytics, operations, product, and leadership teams working on pricing, causal, revenue."
+  ]
+}
